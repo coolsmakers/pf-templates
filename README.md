@@ -9,3 +9,5 @@ Pufferpanel Additional templates.
 ![alt text](https://i.ibb.co/nCS2xmy/image.png)
 4. Click to + and select type Json.
 ![alt text](https://i.ibb.co/nCS9mqY/image.png)
+5. Clear and paste egg code.
+![alt text](https://i.ibb.co/FY2PXF3/image.png)
