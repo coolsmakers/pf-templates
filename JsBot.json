@@ -1,0 +1,40 @@
+{
+  "name": "JsBot",
+  "display": "JsBot",
+  "type": "nodejs",
+  "install": [
+    {
+      "commands": [
+        "touch bot.js",
+        "touch requirements.txt"
+      ],
+      "type": "command"
+    },
+    {
+      "commands": [
+        "chmod +x requirements.txt",
+        "chmod +x bot.js"
+      ],
+      "type": "command"
+    }
+  ],
+  "run": {
+    "stopCode": 14,
+    "command": "bash /tmp/env.sh",
+    "workingDirectory": "/pufferpanel",
+    "pre": [],
+    "post": [],
+    "environmentVars": {}
+  },
+  "data": {},
+  "supportedEnvironments": [
+    {
+      "bindings": {},
+      "image": "howdout/jsbot",
+      "networkMode": "host",
+      "networkName": "",
+      "portBindings": [],
+      "type": "docker"
+    }
+  ]
+}
