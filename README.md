@@ -1,2 +1,2 @@
-# pf-templates
+# Eggs
 Pufferpanel Additional templates.
