@@ -8,3 +8,4 @@ Pufferpanel Additional templates.
 3. Open pufferpanel and click to templates.
 ![alt text](https://i.ibb.co/nCS2xmy/image.png)
 4. Click to + and select type Json.
+![alt text](https://i.ibb.co/Q96c4JC/image.png)
