@@ -1,0 +1,40 @@
+{
+  "name": "PyBot",
+  "display": "PyBot",
+  "type": "python",
+  "install": [
+    {
+      "commands": [
+        "touch bot.py",
+        "touch requirements.txt"
+      ],
+      "type": "command"
+    },
+    {
+      "commands": [
+        "chmod +x bot.py",
+        "chmod +x requirements.txt"
+      ],
+      "type": "command"
+    }
+  ],
+  "run": {
+    "stopCode": 14,
+    "command": "bash /tmp/env.sh",
+    "workingDirectory": "/pufferpanel",
+    "pre": [],
+    "post": [],
+    "environmentVars": {}
+  },
+  "data": {},
+  "supportedEnvironments": [
+    {
+      "bindings": {},
+      "image": "howdout/pythonbot",
+      "networkMode": "host",
+      "networkName": "",
+      "portBindings": [],
+      "type": "docker"
+    }
+  ]
+}
