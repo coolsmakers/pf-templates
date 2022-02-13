@@ -11,3 +11,5 @@ Pufferpanel Additional templates.
 ![alt text](https://i.ibb.co/nCS9mqY/image.png)
 5. Clear and paste egg code.
 ![alt text](https://i.ibb.co/FY2PXF3/image.png)
+6. Save.
+![alt text](https://i.ibb.co/GCJqZWr/image.png)
