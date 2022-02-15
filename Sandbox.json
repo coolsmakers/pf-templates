@@ -1,0 +1,32 @@
+{
+  "name": "Sandbox",
+  "display": "Sandbox",
+  "type": "proot",
+  "install": [
+    {
+      "commands": [
+        "fakechroot fakeroot debootstrap bullseye ."
+      ],
+      "type": "command"
+    }
+  ],
+  "run": {
+    "stopCode": 14,
+    "command": "proot -r . -S . /bin/bash",
+    "workingDirectory": "/pufferpanel",
+    "pre": [],
+    "post": [],
+    "environmentVars": {}
+  },
+  "data": {},
+  "supportedEnvironments": [
+    {
+      "bindings": {},
+      "image": "howdout/sandbox",
+      "networkMode": "host",
+      "networkName": "",
+      "portBindings": [],
+      "type": "docker"
+    }
+  ]
+}
